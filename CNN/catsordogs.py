@@ -19,11 +19,9 @@ classifier.add(Conv2D(32, (3, 3), input_shape = (64, 64, 3), activation = 'relu'
 #pooling
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
 
-
+#2nd covolution layer
 classifier.add(Conv2D(32, (3, 3), activation = 'relu'))
 classifier.add(MaxPooling2D(pool_size = (2, 2)))
-
-
 
 #flattening
 classifier.add(Flatten())
