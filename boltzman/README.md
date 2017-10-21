@@ -1,4 +1,4 @@
-## Movie Rating System Using AutoEncoders
+## Movie Rating System Using Boltzman Machine
 
 
 Download the dataset from : https://grouplens.org/datasets/movielens/
